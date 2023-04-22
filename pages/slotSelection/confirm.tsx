@@ -23,7 +23,7 @@ const SlotConfirmation = () => {
         <ContentTile label="Service:" content={appointment.service} />
       </VStack>
       <ActionButton
-        className="w-64"
+        className="w-64 p-3 bg-purple-600 hover:bg-green-500 text-white text-lg"
         title="Confirm Booking"
         onClick={handleBooking}
       />

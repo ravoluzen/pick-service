@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Link href="/slotSelection/select">
-          <button className='p-4 text-xl bg-purple-600 shadow-lg text-white rounded-lg'>
+          <button className='font-semibold p-4 text-xl bg-purple-600 shadow-lg text-white rounded-lg'>
             Book Appointment
           </button>
         </Link>

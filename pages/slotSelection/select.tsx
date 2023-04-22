@@ -82,11 +82,12 @@ const SlotSelection = () => {
         </VStack>
         <HStack>
           <ActionButton
-              className='bg-gray-400 border hover:bg-gray-600' 
+              className='text-white bg-gray-400 border hover:bg-gray-600' 
               title="Cancel"
               onClick={onCancel}
           />
           <ActionButton
+              className='bg-purple-600 text-white hover:bg-purple-700'
               title="Next"
               onClick={onNext}
           />
