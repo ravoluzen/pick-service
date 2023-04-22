@@ -1,0 +1,37 @@
+[  
+    {    
+        "timeRange": "10:00 AM - 10:45 AM",    
+        "serviceProvider": "John",    
+        "service": "Haircut"  
+    },  
+    {    
+        "timeRange": "11:00 AM - 11:45 AM",    
+        "serviceProvider": "Mary",    
+        "service": "Manicure"  
+    },  
+    {   "timeRange": "12:00 PM - 12:45 PM",    
+        "serviceProvider": "Bob",    
+        "service": "Massage"  
+    },  
+    {   "timeRange": "1:00 PM - 1:45 PM",    
+        "serviceProvider": "Kate",    
+        "service": "Facial"  
+    },  
+    {   "timeRange": "2:00 PM - 2:45 PM",    
+        "serviceProvider": "David",    
+        "service": "Pedicure"  
+    },  
+    {    
+        "timeRange": "3:00 PM - 3:45 PM",    
+        "serviceProvider": "Emily",    
+        "service": "Waxing"  
+    },  
+    {   "timeRange": "4:00 PM - 4:45 PM",    
+        "serviceProvider": "Tom",    
+        "service": "Haircut"  
+    },  
+    {   "timeRange": "5:00 PM - 5:45 PM",    
+        "serviceProvider": "Rachel",    
+        "service": "Massage"  
+    }
+]
