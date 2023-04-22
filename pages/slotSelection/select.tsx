@@ -25,13 +25,13 @@ const SlotSelection = () => {
   const { setAppointment } = useAppointmentStore();
   const router = useRouter();
 
-  const handleDateChange = (date) => {
+  const handleDateChange = (date:any) => {
     console.log(date, "date")
     setSelectedDate(date);
     setSelectedSlot({} as AppointmentProps);
   };
 
-  const handleSlotClick = (slot) => {
+  const handleSlotClick = (slot: AppointmentProps) => {
     setSelectedSlot({
       date: selectedDate.toString(),
       timeRange: slot.timeRange,
@@ -50,7 +50,7 @@ const SlotSelection = () => {
     if(selectedSlot.timeRange === undefined){
       toast.error('Please select a slot and proceed.')
     } else {
-      setAppointment(selectedSlot as AppointmentProps)
+      setAppointment(selectedSlot)
       router.push('/slotSelection/confirm')
     }
 
@@ -72,7 +72,7 @@ const SlotSelection = () => {
           {data.map((slot) => (
               <SlotTile 
                   key={slot.timeRange} 
-                  onClick={() => handleSlotClick(slot)} 
+                  onClick={() => handleSlotClick(slot as AppointmentProps)} 
                   timeRange={slot.timeRange} 
                   service={slot.service}
                   serviceProvider={slot.serviceProvider}
